@@ -5,10 +5,14 @@ Entry for the 2022 Qiskit hackathon in Munich. Team: Matthew Ross, Felix Kunze, 
 ## File structure
 
 The first part of the entry is a lecture (aimed at bachelor students) about Shor's Algorithm.
-It consists of a sublecture about the classical part of the algorithm and a sublecture about the quantum part.  
+It consists of a sublecture about the classical part of the algorithm and a sublecture about the quantum part:
 
 - 01_classical_part/
 - 02_quantum_part/
+
+The second part are the exercises given during the event:
+
+- qiskit_exercises/
 
 ## Dependencies
 
