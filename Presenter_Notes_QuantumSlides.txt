@@ -1,0 +1,28 @@
+Presentation Notes on Quantum Section
+
+Slide1: Need the modulo function f(x) in a Quantum form
+	- First give example with repeated application of the initial function results in a repeated state.  
+		* This demonstrates  U^n has eigenstates 
+		* not tehcycle so that |7>, |4>,... are also eigenstates
+		* all eigenvalue 1 here, but we can choose a better set of states from these...
+
+Slide 2: Form a choice set of bases
+	- select a parameter e^(2piisk/r) and get a new eigenvalue
+	- we now have a factor of r out front in a phase term, which we will intend to measure 
+
+Slide 3: Make a representation of a known state
+	- we don't know r, but we can take a superposition of |u_s> to form a specific eienvalue, |1>
+	- Demonstrate phases cancel in in an example .
+
+Slide 4: Note that U could be difficult to find
+	- a simple representation of U limits the order of the algorithm
+	- Repeated Squares, a standard classical motheod works here to achive poynomial time
+
+Slide 5: Sample circuit
+	- using U discussed we creat the superposition states equivelnt to |1> with f(x) applied
+	- Use QFT to map phase/period to amplidude
+	- comparning read-out probabilites gives us s/r
+	- simple arythmatic then gives canidate r values
+
+jupyter example:  Walk through example based on Qiskit textbook
+	- cover final arythmatic in more detail with the example calculated.
