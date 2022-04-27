@@ -3,6 +3,7 @@ from manim import *
 from manim_fontawesome import *
 from manim_presentation import Slide
 import math
+import math as m
 
 def find_r(k,N,q=1, i=1):
     a=k*q % N
